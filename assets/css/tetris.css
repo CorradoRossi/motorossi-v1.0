@@ -1,0 +1,139 @@
+html {
+  font-family: "Monaco", monospace;
+  font-size: 14px;
+}
+
+body {
+  background: linear-gradient(to top, #FF6589, #202028);
+  color: #fff;
+  font-size: 1.2em;
+  text-align: center;
+  height: 100vh;
+}
+
+canvas {
+  border: solid .2em #fff;
+  height: 90vh;
+}
+
+#board {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #202028;
+  width: 100vw;
+}
+
+#logo li {
+  float: left;
+  padding-left: 5vw;
+  padding-top: 1vh;
+}
+
+#logo li a {
+  display: block;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+#logo li a:hover {
+  background-color: #202028;
+}
+
+#links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #202028;
+  width: 100vw;
+}
+
+#links li {
+  float: right;
+  padding-right: 12vw;
+  padding-top: 3vh;
+}
+
+#links li a {
+  display: block;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#links li a:hover {
+  background-color: #373D48;
+}
+
+#content {
+  position: fixed;
+  top: 40%;
+  left: 47%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+#button {
+  border: none;
+  border-radius: 10px;
+  background: #202028;
+  color: #fff;
+  padding: 7px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+#button:hover {
+  background: #373D48;
+}
+
+#footer {
+  position:absolute;
+  bottom:0;
+  left: 42.5%;
+  font-size: .8em;
+}
+
+@media screen and (max-width: 699px) {
+
+    canvas {
+      border: solid .1em #fff;
+      height: 65vh;
+    }
+
+  #content {
+    position: fixed;
+    top: 40%;
+    left: 41%;
+    margin-right: -40%;
+    transform: translate(-50%, -50%);
+    font-size: .9em;
+  }
+
+  #footer {
+    left: 26.5%;
+  }
+}

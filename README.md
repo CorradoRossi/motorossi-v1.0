@@ -1,4 +1,3 @@
 # simplesite
-A most basic html/css site
-Which is not worth looking at 
-This is extremely simple stuff
+
+Updated 2/26/19 to reflect the v1.0 of my homepage at motorossi.me
