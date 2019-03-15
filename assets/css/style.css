@@ -35,14 +35,13 @@ h2 {
     font-weight: 600;
     font-size: 1em;
     text-align: center;
-    width: auto;
     display: inline;
     color: #09f;
 }
 
 h3 {
     font-weight: 200;
-    font-size: 1.em;2
+    font-size: 1em;
     text-align: left;
     background-color: black;
     color: white;
@@ -57,9 +56,6 @@ img {
     max-height: 100%;
 }
 
-.title {
-}
-
 .blinking-cursor {
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -68,7 +64,7 @@ img {
     animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from, to {
     color: transparent;
   }
@@ -86,7 +82,7 @@ img {
   }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -95,7 +91,7 @@ img {
   }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -104,7 +100,7 @@ img {
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from, to {
     color: transparent;
   }
@@ -232,10 +228,6 @@ img {
     margin-bottom: 2.4em;
     margin-top: .6em;
     overflow: none;
-}
-
-#workitem meta {
-
 }
 
 #workitemimg {
